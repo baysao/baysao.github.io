@@ -13,6 +13,15 @@
     <language>en</language>
     <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://baysao.github.io/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Nginx upload without using any external module</title>
+      <link>https://baysao.github.io/posts/nginx-upload/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://baysao.github.io/posts/nginx-upload/</guid>
+      <description>Nginx upload without using any external module</description>
+    </item>
+    
+    <item>
       <title>Rich Content</title>
       <link>https://baysao.github.io/posts/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>

@@ -176,6 +176,19 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Nginx upload without using any external module
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>You can do this by specifying filename into URL, without using any external module :
+location ~ “/upl/([0-9a-zA-Z-.]*)$” { alias /storage/www/upl/$1; client_body_temp_path /tmp/upl_tmp; dav_methods PUT DELETE MKCOL COPY MOVE; create_full_put_path on; dav_access group:rw all:r; } And use : curl -T test.txt http://x.xx.xx.xx:8080/upl/text.txt</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-03-10 00:00:00 +0000 UTC'>March 10, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hugo Authors</footer>
+  <a class="entry-link" aria-label="post link to Nginx upload without using any external module" href="https://baysao.github.io/posts/nginx-upload/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>Rich Content
     </h2>
   </header>
